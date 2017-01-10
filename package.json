@@ -1,0 +1,29 @@
+{
+  "name": "cam",
+  "version": "1.0.0",
+  "description": "reverse engineered API for https://www.amazon.com/gp/product/B003VPK9ZW/ref=oh_aui_detailpage_o01_s01?ie=UTF8&psc=1",
+  "main": "example.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dibend/cam.git"
+  },
+  "keywords": [
+    "IP",
+    "Camera",
+    "API"
+  ],
+  "author": "David DiBenedetto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dibend/cam/issues"
+  },
+  "homepage": "https://github.com/dibend/cam#readme"
+}
