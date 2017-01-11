@@ -3,7 +3,9 @@ reverse engineered IP camera API for https://www.amazon.com/gp/product/B003VPK9Z
 
 ##Setup
 
-modify credentials, IP, and/or port at top of cam.js if different from default
+modify credentials, IP, and/or port in config.json if different from default
+
+Install [node.js](https://nodejs.org/en/) if you haven't
 
 run `npm install` to install dependencies
 
