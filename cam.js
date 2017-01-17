@@ -8,6 +8,14 @@ exports.snap = function() {
 	request(address + '/media/?action=snapshot').pipe(fs.createWriteStream(new Date() + '.png'));
 }
 
+exports.savePreset = function(preset) {
+	request(address + '/media/?action=cmd&code=11&value=' + preset);
+}
+
+exports.callPreset = function(preset) {
+	request(address + '/media/?action=cmd&code=13&value=' + preset);
+}
+
 //1 lowest, 10 highest
 exports.setContrast = function(contrast) {
 	request(address + '/media/?action=cmd&code=5&value=' + contrast);

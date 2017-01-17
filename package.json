@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node example.js"
+    "test": "node example.js",
+	"monitor": "node monitor.js"
   },
   "repository": {
     "type": "git",
