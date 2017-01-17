@@ -1,6 +1,8 @@
 # cam
 reverse engineered IP camera API for https://www.amazon.com/gp/product/B003VPK9ZW/ref=oh_aui_detailpage_o01_s01?ie=UTF8&amp;psc=1
 
+provides basic functionality for controlling IP camera and saving images to filesystem
+
 ##Setup
 
 make sure IP camera is on, connected to local network, and accessible from default web interface 
